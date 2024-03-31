@@ -1,0 +1,474 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Navigation bar */
+body {
+  background-color: #f4f4f4;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px 50px;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+}
+
+.navlogo {
+  width: 150px;
+}
+.nav-list {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+ul li {
+  font-family: inter;
+  text-align: center;
+
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+}
+
+ul li a {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 18px;
+  color: black;
+  display: flex;
+  word-spacing: 0px;
+  margin: 0 50px;
+}
+.nav-icons {
+  width: auto;
+}
+#search-icon {
+  margin: 0 20px 0 0;
+  color: black;
+}
+#cart-icon {
+  color: black;
+}
+
+/* Hero section */
+h1 {
+  font-family: inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50px;
+  margin: 0 0 10px 0;
+}
+h4 {
+  font-family: inter;
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  font-weight: 400;
+  line-height: 30px;
+}
+.hero-text {
+  padding: 100px 50px 0 0;
+}
+.hero-cta {
+  background-color: black;
+  width: 100px;
+
+  font-family: inter;
+  text-align: center;
+  padding: 15px 20px;
+}
+.shop-now-cta {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+}
+.hero-section {
+  display: flex;
+  background-color: #f4f4f4;
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+  padding: 50px 50px 0 50px;
+  margin-top: 30px;
+}
+.hero-image {
+  width: 400px;
+  padding: 0 0 0 150px;
+}
+
+.benefits-session {
+  background-color: #ffffff;
+  display: flex;
+  padding: 50px 0;
+
+  width: 100%;
+
+  justify-content: center;
+  font-family: inter;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 15px;
+}
+h5 {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+  line-height: 15px;
+}
+.benefit1 {
+  text-align: center;
+}
+.benefit2 {
+  text-align: center;
+  margin: 0 200px;
+}
+.benefit3 {
+  text-align: center;
+}
+
+/* Shop by categories */
+h2 {
+  font-family: inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.categories_text {
+  padding: 0 400px 0 0;
+  width: 50%;
+  justify-content: center;
+}
+.categories {
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.text_and_see_all_container {
+  padding: 50px 50px;
+}
+.see_all_container {
+  display: flex;
+  margin: 0 20px;
+}
+#arrow {
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.container1 {
+  text-align: center;
+  width: 500px;
+  height: 400px;
+  justify-content: center;
+  background-image: url("../html/images/makeup.png");
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  font-family: inter;
+  font-size: 20px;
+  margin: 0 20px 20px 0;
+  font-weight: 400;
+  line-height: 30px;
+}
+.container2 {
+  text-align: center;
+  width: 500px;
+  height: 400px;
+  justify-content: center;
+  background-image: url("../html/images/Handwash.png");
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  font-family: inter;
+  font-size: 20px;
+  margin: 0 20px 20px 0;
+  font-weight: 400;
+  line-height: 30px;
+}
+.container3 {
+  text-align: center;
+  width: 500px;
+  height: 400px;
+  justify-content: center;
+  background-image: url("../html/images/Lotion.png");
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  font-family: inter;
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  font-weight: 400;
+  line-height: 30px;
+}
+.centered1 {
+  text-align: center;
+  position: relative;
+  top: 80%;
+  background-color: white;
+  padding: 10px 10px;
+  margin: 0 100px;
+  text-decoration: none;
+  color: black;
+}
+.centered2 {
+  text-align: center;
+  position: relative;
+  top: 80%;
+  background-color: white;
+  padding: 10px 10px;
+  margin: 0 100px;
+  text-decoration: none;
+  color: black;
+}
+.centered3 {
+  text-align: center;
+  position: relative;
+  top: 80%;
+
+  background-color: white;
+  padding: 10px 10px;
+  margin: 0 100px;
+  text-decoration: none;
+  color: black;
+}
+.cat_cta {
+  font-family: inter;
+  font-size: 20px;
+  margin: 20px 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: white;
+  background-color: white;
+}
+
+.text_and_see_all_container {
+  display: flex;
+}
+.categories_images {
+  width: 95%;
+}
+.catimages {
+  display: flex;
+  justify-content: center;
+  padding: 0 50px;
+}
+/* best sellers */
+.best_seller_container {
+  justify-content: center;
+  margin-bottom: 50px;
+  align-content: center;
+  text-align: center;
+}
+.best_seller_text {
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+.best_seller_images {
+  width: 95%;
+}
+.ctas {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.shop_now {
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  font-family: inter;
+  font-size: 20px;
+  margin: 0 10px;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: none;
+}
+.add_to_cart {
+  padding: 10px 10px;
+  border-width: 20px;
+  border-color: black;
+  text-align: center;
+  font-family: inter;
+  font-size: 20px;
+  margin: 0 10px;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: none;
+}
+.images_and_cta {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+.images_and_cta_group {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.seeall {
+  text-decoration: none;
+  justify-content: center;
+  color: black;
+}
+.seeall_text {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#arrow2 {
+  margin-left: 10px;
+}
+.discount {
+  background-image: url("../html/images/pic\ on\ stone.png");
+  height: 500px;
+  width: 70%;
+  background-size: cover;
+  background-position: center;
+  margin-left: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
