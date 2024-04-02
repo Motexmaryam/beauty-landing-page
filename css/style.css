@@ -473,6 +473,11 @@ h2 {
 #arrow2 {
   margin-left: 10px;
 }
+.discount_box {
+  background: linear-gradient(top, #f4f4f4 50%, white 50%);
+  height: 600px;
+  width: 100%;
+}
 .discount {
   background-image: url("../html/images/pic\ on\ stone.png");
   height: 500px;
@@ -502,4 +507,26 @@ h2 {
 .discount_div {
   padding: 200px 0 0 100px;
   margin: auto;
+}
+.review_box {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.reviews {
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px;
+}
+.review1 {
+  background-color: #f4f4f4;
+  margin: 0 50px;
+  padding: 20px;
+}
+.review2 {
+  background-color: #f4f4f4;
+  margin: 0 50px;
+  padding: 20px;
 }
