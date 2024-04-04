@@ -573,7 +573,7 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 50px 0;
+  margin: 80px 0;
 }
 #name {
   padding: 5px 250px 5px 5px;
@@ -594,5 +594,46 @@ h2 {
 #submit {
   padding: 8px 8px;
   background-color: black;
+  color: white;
+}
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 0px;
+  margin-top: 100px;
+}
+
+.nav-list_footer {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.footer_nav li a {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  word-spacing: 0px;
+  margin: 0 50px;
+}
+.footer-logo {
+  width: 100px;
+}
+.footer-icons {
+  width: auto;
+}
+#whatsapp-icon {
+  color: white;
+}
+#instagram-icon {
+  color: white;
+  margin: 0 10px;
+}
+#facebook-icon {
   color: white;
 }
